@@ -2,9 +2,7 @@ import time
 
 
 def main():
-    while True:
-        print("hello world", flush=True)
-        time.sleep(5)
+    print("hello world", flush=True)
 
 
 if __name__ == "__main__":
