@@ -1,5 +1,10 @@
+import time
+
+
 def main():
-    print("hello world")
+    while True:
+        print("hello world", flush=True)
+        time.sleep(5)
 
 
 if __name__ == "__main__":
